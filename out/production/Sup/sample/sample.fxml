@@ -15,10 +15,11 @@
     <Label text="First Name:"
            GridPane.rowIndex="1"
            GridPane.columnIndex="0"/>
-    <TextField
+    <TextField fx:id="firstName"
             GridPane.columnIndex="1"
             GridPane.rowIndex="1"/>
     <Button text="Say Sup!"
+            onAction="#handleSaySup"
             GridPane.rowIndex="2"
             GridPane.columnIndex="1"
             GridPane.halignment="RIGHT"/>
